@@ -1,0 +1,80 @@
+
+
+
+
+html,
+body{
+  -webkit-animation: appearFromTop .3s cubic-bezier(0.7,0,0.3,1) both;
+  animation: appearFromTop .3s cubic-bezier(0.7,0,0.3,1) both;
+}
+
+
+
+@-webkit-keyframes appearFromTop {
+  from { opacity: 0; -webkit-transform: translate3d(0,0,0); }
+}
+
+@keyframes appearFromTop {
+  from { opacity: 0; -webkit-transform: translate3d(0,0,0); transform: translate3d(0,0,0); }
+}
+
+
+
+@-webkit-keyframes animationFromLeft {
+  from { opacity: 0; -webkit-transform: translate3d(-100px,0,0); }
+}
+
+@keyframes animationFromLeft {
+  from { opacity: 0; -webkit-transform: translate3d(-100px,0,0); transform: translate3d(-100px,0,0); }
+}
+
+
+
+@-webkit-keyframes animationFromRight {
+  from { opacity: 0; -webkit-transform: translate3d(100px,0,0); }
+}
+
+@keyframes animationFromRight {
+  from { opacity: 0; -webkit-transform: translate3d(100px,0,0); transform: translate3d(100px,0,0); }
+}
+
+@-webkit-keyframes animationFromBottom {
+  from { opacity: 0; -webkit-transform: translate3d(0,100px,0); }
+}
+
+@keyframes animationFromBottom {
+  from { opacity: 0; -webkit-transform: translate3d(0,100px,0); transform: translate3d(0,100px,0); }
+}
+
+@-webkit-keyframes animationFromTop {
+  from { opacity: 0; -webkit-transform: translate3d(0,-100px,0); }
+}
+
+@keyframes animationFromTop {
+  from { opacity: 0; -webkit-transform: translate3d(0,-50px,0); transform: translate3d(0,-50px,0); }
+}
+
+@-webkit-keyframes fadeFromBottom {
+  from { opacity: 1; -webkit-transform: translate3d(0,100px,0); }
+}
+
+@keyframes fadeFromBottom {
+  from { opacity: 1; -webkit-transform: translate3d(0,100px,0); transform: translate3d(100px,0,0); }
+}
+
+@-webkit-keyframes animationFromRight {
+  from { opacity: 0; -webkit-transform: translate3d(100px,0,0); }
+}
+
+@keyframes animationFromRight {
+  from { opacity: 0; -webkit-transform: translate3d(100px,0,0); transform: translate3d(100px,0,0); }
+}
+
+
+@-webkit-keyframes fadeFromRight {
+  from { opacity: 1; -webkit-transform: translate3d(100px,0,0); }
+}
+
+@keyframes fadeFromRight {
+  from { opacity: 1; -webkit-transform: translate3d(100px,0,0); transform: translate3d(100px,0,0); }
+}
